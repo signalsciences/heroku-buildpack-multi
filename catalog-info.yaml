@@ -1,0 +1,14 @@
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: signalsciences/heroku-buildpack-multi
+  description: Composable buildpacks
+  name: heroku-buildpack-multi
+  title: signalsciences/heroku-buildpack-multi
+spec:
+  lifecycle: source
+  owner: group:ngwaf-agent-modules
+  type: repository
